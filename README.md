@@ -5,7 +5,7 @@ Hello!  I'm Mint! I have a technical background and hold a Bachelor of Engineeri
 In this repository, you will see a topic about my study project that demonstrate the following, but not limited to the following skills: 
 statistical analysis, data visualization, Training and Fine tuning model, etc.
 
-My Resume in [Resume](Credit_card_approval.ipynb)
+My Resume in [Resume](Pichitapat_Resume.pdf)
 ## Projects
 ### Credit card approval 
 Code: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
