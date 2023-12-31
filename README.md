@@ -17,15 +17,17 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 ## Projects
 ### Project 1 - Credit Approval 
 **Code**: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
-Description: The dataset are the applicants' profiles of those whose loan applications were previously accepted. There is a list of amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, and etc.\
+**Description**: The dataset is the applicants' profiles of those whose loan applications were previously accepted. There is a list of the amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, etc.This project making for proposing a new idea to help screen those applications from 'loan_status' data, which tell that the borrowers are fully paid their loan or they haven't paid their installments in due time for a long period of time.\
 Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-prediction
 
-The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (Exploratory Data Analysis), measuring statistical factors, Interpret result.
+The project includes the following steps: data loading, EDA (Exploratory Data Analysis) including data cleaning, filling missing values, and feature engineering, measuring statistical factors, Interpret result.
+
 **Skills**: data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization. \
 **Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib,sklearn.\
 Results: The number of payments on the loan and loan grade are the important features.
 ### 1.1 Investigate each feature
-Investigated in both numeric and categorical. To find how much it is related to the target by using statistical measurements and visualization method. Then find out the features which important to predict defaulters.
+After finish data cleaning and fill missing value, the next step is to  investigate in both numeric and categorical. To find how much it is related to the target by using statistical measurements and visualization method. Then find out the features which important to predict defaulters.
 <img width="724" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/7c0b6959-9567-4634-98a0-ccfda9281427">
 <img width="853" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/6bf519ac-c1ca-4f69-8ee3-46541eb7695a">
-
+### 1.2 Prepare data
+Prepare Dummies dataframe by join 'loan_status' column and deselect some column that not nessessary for prediction model
