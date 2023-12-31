@@ -12,7 +12,7 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 ## Table of Content
 * **About**
 * **Projects**
-  1. [Credit Approval](#Proj#1-Credit-Approval)
+  1. [Credit Approval](#proj#1-credit-approval)
   2. Developer Survey Analytics
 ## Projects
 ### Proj#1 - Credit Approval 
