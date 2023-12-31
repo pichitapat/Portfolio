@@ -12,8 +12,8 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 ## Table of Content
 * About
 * Projects
-  1. Credit Approval 
-  2. Developer Survey Analytics
+1. Credit Approval
+2. Developer Survey Analytics
 ## Projects
 ### 1. Credit Approval 
 Code: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
