@@ -17,11 +17,12 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 ## Projects
 ### Project 1 - Credit Approval 
 **Code**: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
-Description: The dataset are the applicants' profiles of those whose loan applications were previously accepted. There is a list of amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, and etc. \
+Description: The dataset are the applicants' profiles of those whose loan applications were previously accepted. There is a list of amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, and etc.\
 Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-prediction
-The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (Exploratory Data Analysis), measuring statistical factors, Interpret result.\
+
+The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (Exploratory Data Analysis), measuring statistical factors, Interpret result.
 **Skills**: data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization. \
-**Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib.\
+**Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib,sklearn.\
 Results: The number of payments on the loan and loan grade are the important features.
 ### 1.1 Investigate each feature
 Investigated in both numeric and categorical. To find how much it is related to the target by using statistical measurements and visualization method. Then find out the features which important to predict defaulters.
