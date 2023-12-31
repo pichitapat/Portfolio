@@ -10,8 +10,8 @@ Data gathering with APIs, Data wrangling, Data exploration, Machine Learning mod
 My Resume in [Resume](Pichitapat_Resume.pdf) \
 Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b2949296)
 ## Table of Content
-*About
-*Projects
+* About
+* Projects
 1. Credit Approval 
 2. Developer Survey Analytics
 ## Projects
