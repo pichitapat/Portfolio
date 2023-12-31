@@ -7,7 +7,7 @@ Complementing my academic background, I have pursued further education, completi
 In this repository, you will see a topic about my study project that demonstrate the following, but not limited to the following skills: 
 Data gathering with APIs, Data wrangling, Data exploration, Machine Learning model development, Statistical analysis, Data visualization, Presentation skills, etc.
 
-My Resume in [Resume](Pichitapat_Resume.pdf)
+My Resume in [Resume](Pichitapat_Resume.pdf) \
 Linkedin: (www.linkedin.com/in/pichitapat-charoendhammatad-9b2949296) 
 ## Projects
 ### 1. Credit Approval 
