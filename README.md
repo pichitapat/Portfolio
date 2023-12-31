@@ -12,10 +12,10 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 ## Table of Content
 * **About**
 * **Projects**
-  1. [Credit Approval](#Proj1-Credit-Approval)
+  1. [Credit Approval](#1.Credit-Approval)
   2. Developer Survey Analytics
 ## Projects
-### Proj1 Credit Approval 
+### 1.Credit Approval 
 **Code**: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
 Description: The dataset are the applicants' profiles of those whose loan applications were previously accepted. There is a list of amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, and etc. \
 Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-prediction
