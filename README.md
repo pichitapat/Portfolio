@@ -8,6 +8,7 @@ In this repository, you will see a topic about my study project that demonstrate
 Data gathering with APIs, Data wrangling, Data exploration, Machine Learning model development, Statistical analysis, Data visualization, Presentation skills, etc.
 
 My Resume in [Resume](Pichitapat_Resume.pdf)
+Linkedin: (www.linkedin.com/in/pichitapat-charoendhammatad-9b2949296) 
 ## Projects
 ### 1. Credit Approval 
 Code: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
