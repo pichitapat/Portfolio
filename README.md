@@ -20,9 +20,10 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 **Description**: The dataset is the applicants' profiles of those whose loan applications were previously accepted. There is a list of the amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, etc.This project making for proposing a new idea to help screen those applications from ` 'loan_status'`  data, which tell that the borrowers are fully paid their loan or they haven't paid their installments in due time for a long period of time.\
 Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-prediction
 
-The project includes the following steps: data loading, EDA (Exploratory Data Analysis) including data cleaning, filling missing values, and feature engineering, measuring statistical factors, Interpret result.
+The project includes the following steps: data loading, EDA (Exploratory Data Analysis) including data cleaning, filling missing values, and feature engineering, Then 
+Training and testing a model, Evaluating model by Evaluation metrics, Interpret result.
 
-**Skills**: Data cleaning, Data analysis, Data visualization, Machine learning model development. \
+**Skills**: Data cleaning, Data analysis, Data visualization, Machine learning model development, statistical factors. \
 **Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib,sklearn(LogisticRegression, DecisionTree, RandomForest, xgboost), Evaluation metrics (F1 score, confusion matrix, and Precision-Recall).\
 Results: The number of payments on the loan and loan grade are the important features.
 ### 1.1 Investigate each feature
