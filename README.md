@@ -22,8 +22,8 @@ Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-pred
 
 The project includes the following steps: data loading, EDA (Exploratory Data Analysis) including data cleaning, filling missing values, and feature engineering, measuring statistical factors, Interpret result.
 
-**Skills**: data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization. \
-**Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib,sklearn.\
+**Skills**: Data cleaning, Data analysis, Data visualization, Machine learning model development. \
+**Technology**: Python, Pandas, Numpy, Seaborn, Matplotlib,sklearn(LogisticRegression, DecisionTree, RandomForest, xgboost), Evaluation metrics (F1 score, confusion matrix, and Precision-Recall).\
 Results: The number of payments on the loan and loan grade are the important features.
 ### 1.1 Investigate each feature
 After finish data cleaning and fill missing value, the next step is to  investigate in both numeric and categorical. To find how much it is related to the target by using statistical measurements and visualization method. Then find out the features which important to predict defaulters.
