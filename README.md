@@ -13,7 +13,7 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
 * **About**
 * **Projects**
   1. [Credit Approval](#Project-1---Credit-Approval)
-  2. Developer Survey Analytics
+  2. [Developer Survey Analytics](#Project-2---Developer-Survey-Analytics)
 ## Projects
 ### Project 1 - Credit Approval 
 **Code**: [Credit_card_approval.ipynb](Credit_card_approval.ipynb) \
@@ -29,8 +29,10 @@ Training and testing a model, Evaluating model by Evaluation metrics, Interpret 
 
 ### 1.1 Investigate each feature
 After finish data cleaning and fill missing value, the next step is to  investigate in both numeric and categorical. To find how much it is related to the target by using statistical measurements and visualization method. Then find out the features (Columns) which important to predict defaulters.
+
 <img width="724" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/7c0b6959-9567-4634-98a0-ccfda9281427">
 <img width="853" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/6bf519ac-c1ca-4f69-8ee3-46541eb7695a">
+
 ### 1.2 Prepare data
 Prepare Dummies dataframe by join 'loan_status' column and deselect some features that not nessessary for prediction model, Then Spilt data set for Train and test. Here is parameter setup.
  ```
@@ -38,6 +40,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_s
 x_test, x_val, y_test, y_val = train_test_split(x_test, y_test, random_state = 123, test_size=0.5)
 scaler = StandardScaler()
  ```
+
 ### 1.3 Train, evaluate, and fine-tune ML models
 Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
 |Model|ML algorithm|Hyperparameters|Note|     
@@ -71,7 +74,7 @@ The most important features (Top5) that derived from the best model (M5) are as 
 |term_36|0.076317|
 |mort_acc|0.038589|
 |open_acc|0.033960|
-|home_ownership_RENT|0.025937
+|home_ownership_RENT|0.025937|
 
 ### 1.4 Conclusion
 * The predictive model, which identifies individuals likely to 'Charge off' their loan, yields more effective results when utilizing Resampling techniques
@@ -82,4 +85,23 @@ The most important features (Top5) that derived from the best model (M5) are as 
 ### 1.5 Recommendations
 * From the best model our F1-score is still pretty low. So, we can't actually use this model to predict charge-off applicants, but we might use this to shortlist who will has a chance instead.Additional techniques can be tried further such as better imputation and imbalance handling methods.
 * Utilize clustering techniques to group borrowers, making it easier to tailor campaigns more precisely to the target groups
+
+---
+### Project 2 - Developer Survey Analytics 
+
+**Code**: [Developer Survey Analytics Code](Credit_card_approval.ipynb) \
+**Description**: The Developer Survey conducted annually by Stack Overflow stands as the most extensive and inclusive survey of global coding enthusiasts. Each year, we administer a survey encompassing various aspects, ranging from developers' preferred technologies to their professional preferences, with close to 90,000 developers participating in the 20-minute survey.\
+Data source: https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-developer-survey-results-are-in/ (under a ODbL: Open Database License.)
+
+The project includes the following steps: Data Collection, Data Wrangling, Exploratory Data Analysis, Data Visualization, Making Dashboard, Presentation of Findings
+
+**Skills**: **Dashboard,Data visualization**, statistical factors, Data analysis, Data cleaning.\
+**Technology**: **SQL,Power BI, IBM Cognos Analytics**, Python, Pandas, Numpy, Matplotlib, Fast API\
+**Results**: Dashboard
+![image](https://github.com/pichitapat/Portfolio/assets/150525402/f0d86143-ba42-43d2-8398-1579e96c614d)
+![image](https://github.com/pichitapat/Portfolio/assets/150525402/a7321e33-defb-4d1c-851d-8ebb6f539375)
+![image](https://github.com/pichitapat/Portfolio/assets/150525402/03a9fdd2-54a4-4fe8-8d70-191b52107dee)
+
+
+
 
