@@ -41,7 +41,7 @@ scaler = StandardScaler()
 ### 1.3 Train, evaluate, and fine-tune ML models
 Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
 |Model|ML algorithm|Parameters|Note|     
-|----|-----|-------|    
+|----|-----|-------|-----|    
 |M1|logistic regression model|C=(1/32)| Use all possible features|
 
 |Name|Email|Address|     
