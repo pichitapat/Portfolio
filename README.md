@@ -32,9 +32,19 @@ After finish data cleaning and fill missing value, the next step is to  investig
 <img width="724" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/7c0b6959-9567-4634-98a0-ccfda9281427">
 <img width="853" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/6bf519ac-c1ca-4f69-8ee3-46541eb7695a">
 ### 1.2 Prepare data
-Prepare Dummies dataframe by join 'loan_status' column and deselect some features that not nessessary for prediction model, Then Spilt data set for Train and test
+Prepare Dummies dataframe by join 'loan_status' column and deselect some features that not nessessary for prediction model, Then Spilt data set for Train and test. Here is parameter setup.
  ```
 x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2, random_state = 123,stratify=df['loan_status'])
 x_test, x_val, y_test, y_val = train_test_split(x_test, y_test, random_state = 123, test_size=0.5)
 scaler = StandardScaler()
- ``` 
+ ```
+### 1.3 Train, evaluate, and fine-tune ML models
+Develop 5 models to identify the best ML algorithm
+M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.
+M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.
+M3: Use all possible features, run any model, and fine-tune the hyperparameters.
+M4: Use all possible features, apply a sampling-based technique for the imbalancedness, run the best model from the above (Baseline, M1, and M2), and fine-tune the hyperparameters.
+M5: Customize the feature set by using any feature engineering techniques, and follow the best method from the above.
+
+
+From confusion matrix above ,it means FN (False Negative) which is people who are predicted to be `Fully paid` but actually they are `Charged off`
