@@ -33,3 +33,8 @@ After finish data cleaning and fill missing value, the next step is to  investig
 <img width="853" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/6bf519ac-c1ca-4f69-8ee3-46541eb7695a">
 ### 1.2 Prepare data
 Prepare Dummies dataframe by join 'loan_status' column and deselect some features that not nessessary for prediction model, Then Spilt data set for Train and test
+ ```
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2, random_state = 123,stratify=df['loan_status'])
+x_test, x_val, y_test, y_val = train_test_split(x_test, y_test, random_state = 123, test_size=0.5)
+scaler = StandardScaler()
+ ``` 
