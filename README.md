@@ -86,10 +86,15 @@ The most important features (Top5) that derived from the best model (M5) are as 
 * From the best model our F1-score is still pretty low. So, we can't actually use this model to predict charge-off applicants, but we might use this to shortlist who will has a chance instead.Additional techniques can be tried further such as better imputation and imbalance handling methods.
 * Utilize clustering techniques to group borrowers, making it easier to tailor campaigns more precisely to the target groups
 
+
+
+
+
+
 ---
 ### Project 2 - Developer Survey Analytics 
 
-**Code**: [Developer Survey Analytics Code](Credit_card_approval.ipynb) \
+**Code**: [Developer Survey Analytics Code](https://github.com/pichitapat/Portfolio/tree/4e00ddcd5e9ae134edbd0f21c1f3bd1de9bc452f/Project%202_Developer%20Survey%20Analytics) \
 **Description**: The Developer Survey conducted annually by Stack Overflow stands as the most extensive and inclusive survey of global coding enthusiasts. Each year, we administer a survey encompassing various aspects, ranging from developers' preferred technologies to their professional preferences, with close to 90,000 developers participating in the 20-minute survey.\
 Data source: https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-developer-survey-results-are-in/ (under a ODbL: Open Database License.)
 
