@@ -43,6 +43,11 @@ Develop 5 models to identify the best ML algorithm. The table below show all hyp
 |Model|ML algorithm|Parameters|Note|     
 |----|-----|-------|    
 |M1|logistic regression model|C= [2^-5]| Use all possible features|
+
+|Name|Email|Address|      <====== This is the heading of the table
+|----|-----|-------|      <====== This is the separator.
+|John|john@example.com|Address1| <=== This is the table body.
+
 M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.\
 M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.\
 M3: Use all possible features, run any model, and fine-tune the hyperparameters.\
