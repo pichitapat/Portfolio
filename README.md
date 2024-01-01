@@ -16,7 +16,7 @@ Linkedin: [My Linkedin](www.linkedin.com/in/pichitapat-charoendhammatad-9b294929
   2. [Developer Survey Analytics](#Project-2---Developer-Survey-Analytics)
 ## Projects
 ### Project 1 - Credit Approval 
-**Code**: [Credit_Approval.ipynb](Project-1_Credit-Approval/Credit_Approval.ipynb) \
+**Code**: [Credit_Approval.ipynb](https://github.com/pichitapat/Portfolio/blob/4e00ddcd5e9ae134edbd0f21c1f3bd1de9bc452f/Project%201_Credit%20Approval/Credit_Approval.ipynb) \
 **Description**: The dataset is the applicants' profiles of those whose loan applications were previously accepted. There is a list of the amount of the loan, The number of payments on the loan, Interest Rate, loan grade, home ownership status, etc. This project making for proposing a new idea to help screen those applications from `'loan_status'`  data, which tell that the borrowers are `Fully paid` their loan or they haven't paid their installments in due time for a long period of time, `Charge off`.\
 Data source: https://www.kaggle.com/faressayah/lending-club-loan-defaulters-prediction
 
