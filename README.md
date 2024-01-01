@@ -39,12 +39,15 @@ x_test, x_val, y_test, y_val = train_test_split(x_test, y_test, random_state = 1
 scaler = StandardScaler()
  ```
 ### 1.3 Train, evaluate, and fine-tune ML models
-Develop 5 models to identify the best ML algorithm
-M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.
-M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.
-M3: Use all possible features, run any model, and fine-tune the hyperparameters.
-M4: Use all possible features, apply a sampling-based technique for the imbalancedness, run the best model from the above (Baseline, M1, and M2), and fine-tune the hyperparameters.
-M5: Customize the feature set by using any feature engineering techniques, and follow the best method from the above.
+Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
+|Model|ML algorithm|Parameters|Note|     
+|----|-----|-------|    
+|M1|logistic regression model|C= [2**-5,2**-4,2**-3,1,2**-2,2**-1,2**3,2**0,2**1]| 
+M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.\
+M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.\
+M3: Use all possible features, run any model, and fine-tune the hyperparameters.\
+M4: Use all possible features, apply a sampling-based technique for the imbalancedness, run the best model from the above (Baseline, M1, and M2), and fine-tune the hyperparameters.\
+M5: Customize the feature set by using any feature engineering techniques, and follow the best method from the above.\
 
 
-From confusion matrix above ,it means FN (False Negative) which is people who are predicted to be `Fully paid` but actually they are `Charged off`
+From confusion matrix above ,it means FN (False Negative) which is people who are predicted to be `Fully paid` but actually they are `Charged off` 
