@@ -42,7 +42,7 @@ scaler = StandardScaler()
 Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
 |Model|ML algorithm|Parameters|Note|     
 |----|-----|-------|    
-|M1|logistic regression model|C= [2**-5,2**-4,2**-3,1,2**-2,2**-1,2**3,2**0,2**1]| 
+|M1|logistic regression model|C= 1/32| 
 M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.\
 M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.\
 M3: Use all possible features, run any model, and fine-tune the hyperparameters.\
