@@ -42,15 +42,23 @@ scaler = StandardScaler()
 Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
 |Model|ML algorithm|Hyperparameters|Note|     
 |----|-----|-------|-----|    
-|M1|logistic regression model|C= [(0.03125, 0.0625, 0.125, 1, 0.25, 0.5, 8, 1, 2)]| Use all possible features|
-|M2|random forest model|'min_samples_leaf': (1, 5, 10),'min_samples_split': (2, 5, 10)| Use all possible features|
-|M3|XGBClassifier|'max_depth': (10, 15), 'max_leaves': (0, 5, 10)| Use all possible features|
-|M4|XGBClassifier|'max_depth': (10, 15), 'max_leaves': (0, 5, 10)| run the best model and hyperparameters from the above(the best model from M1,M2, and M3 is M3),apply a sampling-based technique for the imbalancedness|
-|M5|XGBClassifier|max_depth=10, max_leaves=1| Customize the feature set by using any feature engineering techniques, run the best model and hyperparameters from the above|
+|M1|Logistic regression model|C= (0.03125, 0.0625, 0.125, 1, 0.25, 0.5, 8, 1, 2)| Use all possible features|
+|M2|Random forest model|min_samples_leaf: (1, 5, 10), min_samples_split: (2, 5, 10)| Use all possible features|
+|M3|XGBClassifier|max_depth: (10, 15), max_leaves: (0, 5, 10)| Use all possible features|
+|M4|XGBClassifier|max_depth: (10, 15), max_leaves: (0, 5, 10)| run the best model and hyperparameters from the above(the best model from M1,M2, and M3 is M3),apply a sampling-based technique for the imbalancedness|
+|M5|XGBClassifier|max_depth=10, max_leaves=1| Customize the feature set by using any feature engineering techniques, run the best model and hyperparameters from the above (M4)|
 
+Note for sampling-based technique for the imbalancedness :
+ ```
+over = SMOTE(sampling_strategy=0.3)
+under = RandomUnderSampler(sampling_strategy=0.75)
+steps = [('o', over), ('u', under)]
+pipeline = Pipeline(steps=steps)
+x_train_balance, y_train_balance = pipeline.fit_resample(x_train_scaled, y_train)
+ ```
 
-
-M5: Customize the feature set by using any feature engineering techniques, and follow the best method from the above.\
+Presented here is an exemple of the outcomes derived from M5, identified as the optimal model in our analysis.
+<img width="290" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/5d02c224-ca86-4306-bf04-6802e0e034bd">
 
 
 From confusion matrix above ,it means FN (False Negative) which is people who are predicted to be `Fully paid` but actually they are `Charged off` 
