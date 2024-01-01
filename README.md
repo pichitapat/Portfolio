@@ -58,7 +58,7 @@ x_train_balance, y_train_balance = pipeline.fit_resample(x_train_scaled, y_train
  ```
 
 Presented here is an exemple of the outcomes derived from M5, identified as the optimal model in our analysis.
-<img width="290" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/5d02c224-ca86-4306-bf04-6802e0e034bd" img align="center">
+<img align="center" width="350" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/5d02c224-ca86-4306-bf04-6802e0e034bd" >
 
 
 From confusion matrix above ,it means FN (False Negative) which is people who are predicted to be `Fully paid` but actually they are `Charged off` 
