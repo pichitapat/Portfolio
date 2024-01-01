@@ -40,14 +40,16 @@ scaler = StandardScaler()
  ```
 ### 1.3 Train, evaluate, and fine-tune ML models
 Develop 5 models to identify the best ML algorithm. The table below show all hyperparameters to fine-tune ML models \
-|Model|ML algorithm|Parameters|Note|     
+|Model|ML algorithm|Hyperparameters|Note|     
 |----|-----|-------|-----|    
-|M1|logistic regression model|C= [2**-5]| Use all possible features|
+|M1|logistic regression model|C= [(0.03125, 0.0625, 0.125, 1, 0.25, 0.5, 8, 1, 2)]| Use all possible features|
+|M2|random forest model|'min_samples_leaf': (1, 5, 10),'min_samples_split': (2, 5, 10)| Use all possible features|
+|M3|XGBClassifier|'max_depth': (10, 15), 'max_leaves': (0, 5, 10)| Use all possible features|
+|M4|XGBClassifier|'max_depth': (10, 15), 'max_leaves': (0, 5, 10)| run the best model and hyperparameters from the above(the best model from M1,M2, and M3 is M3),apply a sampling-based technique for the imbalancedness|
+|M5|XGBClassifier|max_depth=10, max_leaves=1| Customize the feature set by using any feature engineering techniques, run the best model and hyperparameters from the above|
 
-M1: Use all possible features, run a logistic regression model with at least one regularization term, and fine-tune the hyperparameters.\
-M2: Use all possible features, run a random forest model, and fine-tune the hyperparameters.\
-M3: Use all possible features, run any model, and fine-tune the hyperparameters.\
-M4: Use all possible features, apply a sampling-based technique for the imbalancedness, run the best model from the above (Baseline, M1, and M2), and fine-tune the hyperparameters.\
+
+
 M5: Customize the feature set by using any feature engineering techniques, and follow the best method from the above.\
 
 
