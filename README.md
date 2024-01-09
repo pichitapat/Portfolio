@@ -103,9 +103,17 @@ The project includes the following steps: Data Collection, Data Wrangling, Explo
 **Skills**: **Dashboard,Data visualization**, statistical factors, Data analysis, Data cleaning.\
 **Technology**: **SQL,Power BI, IBM Cognos Analytics**, Python, Pandas, Numpy, Matplotlib, Fast API\
 **Results**: Dashboard
+
+2.1 
+Dashboard
 ![image](https://github.com/pichitapat/Portfolio/assets/150525402/f0d86143-ba42-43d2-8398-1579e96c614d)
 ![image](https://github.com/pichitapat/Portfolio/assets/150525402/a7321e33-defb-4d1c-851d-8ebb6f539375)
 ![image](https://github.com/pichitapat/Portfolio/assets/150525402/03a9fdd2-54a4-4fe8-8d70-191b52107dee)
+
+Appendix : Essential chart type
+
+<img width="221" alt="image" src="https://github.com/pichitapat/Portfolio/assets/150525402/a484bcf8-0b56-4d77-b815-f50e82c9b950">
+
 
 
 
